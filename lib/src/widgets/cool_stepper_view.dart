@@ -37,7 +37,7 @@ class CoolStepperView extends StatelessWidget {
               Container(
                 width: MediaQuery.of(context).size.width * 0.8,
                 child: Text(
-                  step.title.toUpperCase(),
+                  step.title,
                   style: config.titleTextStyle ??
                       TextStyle(
                         fontSize: 16.0,
