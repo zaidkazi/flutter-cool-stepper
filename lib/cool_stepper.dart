@@ -29,6 +29,9 @@ class CoolStepper extends StatefulWidget {
   /// default is false
   final bool showErrorSnackbar;
 
+
+
+
   const CoolStepper({
     Key key,
     @required this.steps,
@@ -174,6 +177,7 @@ class _CoolStepperState extends State<CoolStepper> {
           ),
           counter,
           FlatButton(
+            
             onPressed: onStepNext,
             child: Text(
               getNextLabel(),

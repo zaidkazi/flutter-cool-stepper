@@ -53,6 +53,8 @@ class CoolStepperConfig {
   /// default is 'FINISH'
   final String finalText;
 
+  final Function iconFunction;
+
   const CoolStepperConfig({
     this.backText,
     this.nextText,
@@ -61,6 +63,7 @@ class CoolStepperConfig {
     this.headerColor,
     this.iconColor,
     this.icon,
+    this.iconFunction,
     this.titleTextStyle,
     this.subtitleTextStyle,
     this.backTextList,
