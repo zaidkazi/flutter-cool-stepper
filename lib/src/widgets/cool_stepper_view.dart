@@ -52,7 +52,7 @@ class CoolStepperView extends StatelessWidget {
                   visible: config.icon == null,
                   child:
                   InkWell(
-                
+
                     child: ( Icon(
                       Icons.cancel_outlined,
                       size: 22,
@@ -64,16 +64,7 @@ class CoolStepperView extends StatelessWidget {
                   replacement: config.icon ?? Container())
             ],
           ),
-          SizedBox(height: 5.0),
-          Text(
-            step.subtitle,
-            style: config.subtitleTextStyle ??
-                TextStyle(
-                  fontSize: 14.0,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.black,
-                ),
-          )
+
         ],
       ),
     );
